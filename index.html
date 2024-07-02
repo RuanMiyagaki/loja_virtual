@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/LT2.PNG" type="image/x-icon">
+  <title>La Tienda</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-md bg-black navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <h1 class="m-0"> <img class="La_Tienda" src="./assets/La TIenda3.PNG" alt="Logo da loja Meteora"></h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Produtos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Novidades</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Ofertas</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2 rounded-0" type="search" placeholder="Digite o produto"
+            aria-label="Pesquisar">
+          <button class="btn btn-outline-light rounded-0" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="w-100 img-fluid d-md-none" src="./assets/Mobile/Imagem-de-fundo-festa.png"
+          alt="Imagem de vários balões em uma festa">
+        <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="./assets/Tablet/Imagem-de-fundo-festa.png"
+          alt="Imagem de vários balões em uma festa">
+        <img class="w-100 img-fluid d-none d-xl-block" src="./assets/Desktop/Imagem-de-fundo-festa.png"
+          alt="Imagem de vários balões em uma festa">
+          <div class="carousel-caption d-block d-md-block">
+            <h5 class="fs-4">Venha comemorar as suas celebrações conosco</h5>
+            <p class="fs-5 p-t-3">Aqui em La Tienda você pode comemorar seu anivesário e datas comemorativas com os melhores produtos de nossa loja</p>
+          </div>
+          </div>
+      <div class="carousel-item">
+        <img class="w-100 img-fluid d-md-none" src="./assets/Mobile/Confeitaria.PNG"
+          alt="Imagem de um confeiteiro fazendo um bolo delicioso">
+        <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="./assets/Tablet/Confeitaria.png"
+          alt="Imagem de um confeiteiro fazendo um bolo delicioso">
+        <img class="w-100 img-fluid d-none d-xl-block" src="./assets/Desktop/Confeitaria.png"
+          alt="Imagem de um confeiteiro fazendo um bolo delicioso">
+        <div class="carousel-caption d-block d-md-block">
+          <h5 class="fs-4">Melhores bolos e doces da região</h5>
+          <p class="fs-5 p-t-3 fw-bold">Venha curtir e experimentar os melhores bolos nas festas e datas comemorativas que você desejar participar </p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="w-100 img-fluid d-md-none" src="./assets/Mobile/modelo-roupa.png"
+          alt="Imagem de vários balões em uma festa">
+        <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="./assets/Tablet/modelo-roupa.png"
+          alt="Imagem de vários balões em uma festa">
+        <img class="w-100 img-fluid d-none d-xl-block" src="./assets/Desktop/modelo-roupa.png"
+          alt="Imagem de vários balões em uma festa">
+        <div class="carousel-caption d-block d-md-block">
+          <h5 class="fs-4">Roupas pelos melhores preços para você</h5>
+          <p class="fs-5 p-t-3 fw-bold">Venha conhecer e usar diversos estlios de roupas aqui na nossa loja</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="w-100 img-fluid d-md-none" src="./assets/Mobile/materiais-de-escola.png"
+          alt="Imagem de vários balões em uma festa">
+        <img class="w-100 img-fluid d-none d-md-block d-xl-none" src="./assets/Tablet/materiais-de-escola.png"
+          alt="Imagem de vários balões em uma festa">
+        <img class="w-100 img-fluid d-none d-xl-block" src="./assets/Desktop/materiais-de-escola.png"
+          alt="Imagem de vários balões em uma festa">
+        <div class="carousel-caption d-block d-md-block">
+          <h5 class="fs-4">Melhores materiais escolares para você desenhar, aprender e se divertir</h5>
+          <p class="fs-5 p-t-3 fw-bold">Temos diversos tipos de materiais feitos especialmente para você</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </div>
+
+  <h2 class="text-center my-3 my-xl-5">Busque por categoria:</h2>
+
+  <div class="container row mx-auto g-4">
+
+    <div class="col-6 col-md-2 col-xxl-2">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none d-block" src="./assets/Mobile/categoria-roupas.png"
+          alt="Camiseta de cor azul muito bonita e com o melhor conforto">
+        <img class="d-none d-md-block d-xl-none" src="./assets/Tablet/categoria-roupas.png"
+          alt="Camiseta de cor azul muito bonita e com o melhor conforto">
+        <img class="d-none d-xl-block" src="./assets/Desktop/categoria-roupas.png"
+          alt="Camiseta de cor azul muito bonita e com o melhor conforto">
+        <div class="card-header bg-black text-bg-dark">
+          <p class="text-center card-text">
+            Camisetas
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-2 col-xxl-2">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none d-block" src="./assets/Mobile/categoria-materiais-escolares.png"
+          alt="Vários materiais escolares para você poder aprender e se divertir">
+        <img class="d-none d-md-block d-xl-none" src="./assets/Tablet/categoria-materiais-escolares.png"
+          alt="Vários materiais escolares para você poder aprender e se divertir">
+        <img class="d-none d-xl-block" src="./assets/Desktop/categoria-materiais-escolares.png"
+          alt="Vários materiais escolares para você poder aprender e se divertir">
+        <div class="card-header bg-black text-bg-dark">
+          <p class="text-center card-text">
+            Materiais escolares
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-2 col-xxl-2">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none d-block" src="./assets/Mobile/categoria-brinquedos.png"
+          alt="Vários brinquedos para o pessoal se divertir">
+        <img class="d-none d-md-block d-xl-none" src="./assets/Tablet/categoria-brinquedos.png"
+          alt="Vários brinquedos para o pessoal se divertir">
+        <img class="d-none d-xl-block" src="./assets/Desktop/categoria-brinquedos.png"
+          alt="Vários brinquedos para o pessoal se divertir">
+        <div class="card-header bg-black text-bg-dark">
+          <p class="text-center card-text">
+            Brinquedos
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-2 col-xxl-2">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none d-block" src="./assets/Mobile/categoria-kits-de-festa.png"
+          alt="Vários kits de festa para você experimentar e agradar o seu paladar">
+        <img class="d-none d-md-block d-xl-none" src="./assets/Tablet/categoria-kits-de-festa.png"
+          alt="Vários kits de festa para você experimentar e agradar o seu paladar">
+        <img class="d-none d-xl-block" src="./assets/Desktop/categoria-kits-de-festa.png"
+          alt="Vários kits de festa para você experimentar e agradar o seu paladar">
+        <div class="card-header bg-black text-bg-dark">
+          <p class="text-center card-text">
+            Kits de festa
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-2 col-xxl-2">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none d-block" src="./assets/Mobile/categoria-comidas.png"
+          alt="Milhares de comidas para você conhecer e experimentar">
+        <img class="d-none d-md-block d-xl-none" src="./assets/Tablet/categoria-comidas.png"
+          alt="Milhares de comidas para você conhecer e experimentar">
+        <img class="d-none d-xl-block" src="./assets/Desktop/categoria-comidas.png"
+          alt="Milhares de comidas para você conhecer e experimentar">
+        <div class="card-header bg-black text-bg-dark">
+          <p class="text-center card-text">
+            Comidas
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6 col-md-2 col-xxl-2">
+      <div class="card rounded-0 border-0">
+        <img class="d-md-none d-block" src="./assets/Mobile/categoria-doces.png"
+          alt="Muitos doces saborosos e de diversos tipos para você aproveitar e experimentar">
+        <img class="d-none d-md-block d-xl-none" src="./assets/Tablet/categoria-doces.png"
+          alt="Muitos doces saborosos e de diversos tipos para você aproveitar e experimentar">
+        <img class="d-none d-xl-block" src="./assets/Desktop/categoria-doces.png"
+          alt="Muitos doces saborosos e de diversos tipos para você aproveitar e experimentar">
+        <div class="card-header bg-black text-bg-dark">
+          <p class="text-center card-text">
+            Doces
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <h2 class="container text-center my-3 my-xl-5">Produtos em alta</h2>
+
+  <div class="container row mx-auto">
+
+    <div class="col-12 col-md-4 col-xxl-4 pb-4">
+      <div class="card">
+        <img class="d-block d-md-none" src="./assets/Mobile/Mochila.PNG" alt="Imagem de uma mochila de alta qualidade">
+        <img class="d-none d-md-block d-xl-none" src="./assets/Tablet/Mochila.PNG"
+          alt="Imagem de uma mochila de alta qualidade">
+        <img class="d-none d-xl-block" src="./assets/Desktop/Mochila.png" alt="Imagem de uma mochila de alta qualidade">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Mochila</h5>
+          <p class="card-text">Mochila impermeável e de alta qualidade para você levar e guardar o que deseja em sua
+            viagem com segurança
+          </p>
+          <p class="fw-bold">R$50,00</p>
+          <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais detalhes</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-4 col-xxl-4 pb-4">
+      <div class="card">
+        <img class="d-block d-md-none" src="./assets/Mobile/Bolo.PNG"
+          alt="Um pedaço de um bolo feito com os melhores ingredientes da região e que é muito bom">
+        <img class="d-none d-md-block d-xl-none" src="./assets/Tablet/Bolo.png"
+          alt="Um pedaço de um bolo feito com os melhores ingredientes da região e que é muito bom">
+        <img class="d-none d-xl-block" src="./assets/Desktop/Bolo.png"
+          alt="Um pedaço de um bolo feito com os melhores ingredientes da região e que é muito bom">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Pedaço de bolo</h5>
+          <p class="card-text">Aqui está um dos melhores momentos de sua vida, a hora do bolo, venha experimentar essa belíssima fatia, entre diversas outras</p>
+          <p class="fw-bold">R$10,00</p>
+          <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais detalhes</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-4 col-xxl-4 pb-4">
+      <div class="card">
+        <img class="d-block d-md-none" src="./assets/Mobile/Camiseta.PNG"
+          alt="Imagem de uma camiseta básica de manga curta feito com o melhor conforto para utilizar">
+        <img class="d-none d-md-block d-xl-none" src="./assets/Tablet/Camiseta.png"
+          alt="Imagem de uma camiseta básica de manga curta feito com o melhor conforto para utilizar">
+        <img class="d-none d-xl-block" src="./assets/Desktop/Camiseta 1.png"
+          alt="Imagem de uma camiseta básica de manga curta feito com o melhor conforto para utilizar">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Camiseta</h5>
+          <p class="card-text">Camiseta de tamanho de criança até adulto com o melhor conforto e da melhor qualidade para você usar</p>
+          <p class="fw-bold">R$30,00</p>
+          <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais detalhes</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-4 col-xxl-4 pb-4">
+      <div class="card">
+        <img class="d-block d-md-none" src="./assets/Mobile/Caixa de presentes.png"
+          alt="Caixa de presentes para presentar pessoas especiais em sua vida">
+        <img class="d-none d-md-block d-xl-none" src="./assets/Tablet/Caixa-de-presentes.png"
+          alt="Caixa de presentes para presentar pessoas especiais em sua vida">
+        <img class="d-none d-xl-block" src="./assets/Desktop/Caixa-de-presentes.png"
+          alt="Caixa de presentes para presentar pessoas especiais em sua vida">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Caixa de presentes</h5>
+          <p class="card-text">Caixa de presentes para presentar quem você mais ama em sua vida</p>
+          <p class="fw-bold">R$5,00</p>
+          <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais detalhes</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-4 col-xxl-4 pb-4">
+      <div class="card">
+        <img class="d-block d-md-none" src="./assets/Mobile/Urso-de-pelúcia.PNG"
+          alt="Imagem de um urso de pelúcia fofinho que é seu melhor amiho e companheiro">
+        <img class="d-none d-md-block d-xl-none" src="./assets/Tablet/Urso-de-pelúcia.png"
+          alt="Imagem de um urso de pelúcia fofinho que é seu melhor amiho e companheiro">
+        <img class="d-none d-xl-block" src="./assets/Desktop/Urso-de-pelúcia.png"
+          alt="Imagem de um urso de pelúcia fofinho que é seu melhor amiho e companheiro">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Urso de pelúcia</h5>
+          <p class="card-text">Urso de pelúcia fofinho que quer ser seu melhor amigo e companheiro</p>
+          <p class="fw-bold">R$20,00</p>
+          <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais detalhes</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-12 col-md-4 col-xxl-4 pb-4">
+      <div class="card">
+        <img class="d-block d-md-none" src="./assets/Mobile/Paçoca.PNG"
+          alt= "Um dos melhores doces brasileiros e que está presente na vida de muitas pessoas">
+        <img class="d-none d-md-block d-xl-none" src="./assets/Tablet/Paçoca.png"
+          alt= "Um dos melhores doces brasileiros e que está presente na vida de muitas pessoas">
+        <img class="d-none d-xl-block" src="./assets/Desktop/Paçoca.png"
+          alt= "Um dos melhores doces brasileiros e que está presente na vida de muitas pessoas">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Paçoca</h5>
+          <p class="card-text"> Um dos melhores doces brasileiros e que também está presente em diversas festas junidas, está afim de um docinho por aí?  
+          </p>
+          <p class="fw-bold">R$0,50</p>
+          <a href="#" class="btn btn-primary botao-lilas rounded-0 border-0">Ver mais detalhes</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <section class="pb-4 bg-black text-bg-dark">
+
+    <h2 class="text-center py-3">Conheça todas as nossas facilidades</h2>
+
+    <div class="d-flex divisoesestilos flex-column flex-lg-row align-items-center  gap-3">
+      <div class="divs-facilidades d-flex align-items-center">
+        <div><i class="cor-verde bi bi-x-diamond fs-1"></i></div>
+        <div>
+          <div class="ms-3 mb-1 ">PAGUE PELO PIX</div>
+          <div class="texto-pequeno ms-3">Ganhe 5% OFF em
+            pagamentos via PIX</div>
+        </div>
+      </div>
+
+      <div class="divs-facilidades d-flex">
+        <div><i class="cor-verde bi bi-arrow-repeat fs-1"></i></div>
+        <div>
+          <div class="ms-3 mb-1 ">TROCA GRÁTIS</div>
+          <div class="texto-pequeno ms-3">Devolução grátis em até 15 dias</div>
+        </div>
+      </div>
+
+      <div class="divs-facilidades d-flex">
+        <div><i class="cor-verde bi bi-flower1 fs-1"></i></div>
+        <div>
+          <div class="ms-3 mb-1 ">SUSTENTABILIDADE</div>
+          <div class="texto-pequeno ms-3">Loja virtual que colaboradora com o meio ambiente.</div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <form class="container border border-secondary my-3 my-xl-5 p-3 text-center div-ofertas mx-auto">
+    <h5>
+      Quer receber as melhores ofertas, promoções exclusivas e desconto de até 90% OFF na primeira
+      compra? Cadastre-se com a gente!
+    </h5>
+
+    <div class="input-group my-3">
+      <input type="email" class="form-control border-secondary rounded-0" placeholder="Insira seu e-mail"
+        aria-label="Digite seu e-mail" aria-describedby="button-addon2" />
+      <button type="button" class="btn btn-primary botao-lilas rounded-0 border-0 " id="button-addon2">Enviar</button>
+    </div>
+  </form>
+
+  <footer class="text-center bg-black text-bg-dark">
+    <p class="card-text py-3">2024 <i class="bi bi-c-circle"></i> Desenvolvido por Ruan Miyagaki / Projeto fictício de uma loja virtual sem fins
+      comerciais</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
